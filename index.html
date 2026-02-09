@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>DevOps Demo</title>
+    <meta charset="UTF-8">
+    <title>DevOps CI/CD Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>DevOps Internship Project</h1>
-  <p>By Shambhu Barangule</p>
+
+    <div class="container">
+        <h1>🚀 DevOps CI/CD Project</h1>
+        <p class="subtitle">
+            Automated Deployment using AWS EC2, Docker & Jenkins
+        </p>
+
+        <section class="card">
+            <h2>📌 Project Overview</h2>
+            <p>
+                This project demonstrates a complete DevOps workflow where application code
+                is automatically built, containerized, and deployed on the cloud using CI/CD.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>🛠 Technologies Used</h2>
+            <ul>
+                <li><strong>AWS EC2</strong> – Cloud server to host the application</li>
+                <li><strong>Docker</strong> – Containerization of the web application</li>
+                <li><strong>Jenkins</strong> – CI/CD automation server</li>
+                <li><strong>GitHub</strong> – Source code management</li>
+                <li><strong>NGINX</strong> – Web server inside Docker container</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>⚙️ CI/CD Workflow</h2>
+            <ol>
+                <li>Developer pushes code to GitHub</li>
+                <li>Jenkins pulls latest code</li>
+                <li>Docker image is built automatically</li>
+                <li>Old container is stopped</li>
+                <li>New container is deployed on AWS EC2</li>
+            </ol>
+        </section>
+
+        <footer>
+            <p>👨‍💻 Created by Shambhu Barangule | DevOps Internship Project</p>
+        </footer>
+    </div>
+
 </body>
 </html>
