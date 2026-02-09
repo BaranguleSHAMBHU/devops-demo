@@ -2,49 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevOps CI/CD Project</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <div class="background-glow"></div>
+
     <div class="container">
-        <h1>🚀 DevOps CI/CD Project</h1>
-        <p class="subtitle">
-            Automated Deployment using AWS EC2, Docker & Jenkins
-        </p>
+        
+        <header class="hero-section">
+            <div class="icon-wrapper">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h1>DevOps CI/CD Project</h1>
+            <p class="subtitle">Automated Deployment using AWS EC2, Docker & Jenkins</p>
+        </header>
 
-        <section class="card">
-            <h2>📌 Project Overview</h2>
-            <p>
-                This project demonstrates a complete DevOps workflow where application code
-                is automatically built, containerized, and deployed on the cloud using CI/CD.
-            </p>
-        </section>
+        <main class="grid-layout">
+            
+            <section class="card overview-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Project Overview</h2>
+                </div>
+                <p>
+                    This project demonstrates a complete DevOps workflow where application code is automatically built, containerized, and deployed on the cloud using CI/CD pipelines.
+                </p>
+            </section>
 
-        <section class="card">
-            <h2>🛠 Technologies Used</h2>
-            <ul>
-                <li><strong>AWS EC2</strong> – Cloud server to host the application</li>
-                <li><strong>Docker</strong> – Containerization of the web application</li>
-                <li><strong>Jenkins</strong> – CI/CD automation server</li>
-                <li><strong>GitHub</strong> – Source code management</li>
-                <li><strong>NGINX</strong> – Web server inside Docker container</li>
-            </ul>
-        </section>
+            <section class="card tech-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Technologies Used</h2>
+                </div>
+                <ul class="tech-list">
+                    <li>
+                        <span class="tech-icon"><i class="fa-brands fa-aws"></i></span>
+                        <div class="tech-info">
+                            <strong>AWS EC2</strong>
+                            <span>Cloud server to host the application</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="tech-icon"><i class="fa-brands fa-docker"></i></span>
+                        <div class="tech-info">
+                            <strong>Docker</strong>
+                            <span>Containerization of the web application</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="tech-icon"><i class="fa-brands fa-jenkins"></i></span>
+                        <div class="tech-info">
+                            <strong>Jenkins</strong>
+                            <span>CI/CD automation server</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="tech-icon"><i class="fa-brands fa-github"></i></span>
+                        <div class="tech-info">
+                            <strong>GitHub</strong>
+                            <span>Source code management</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="tech-icon"><i class="fa-solid fa-server"></i></span>
+                        <div class="tech-info">
+                            <strong>NGINX</strong>
+                            <span>Web server inside Docker container</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
 
-        <section class="card">
-            <h2>⚙️ CI/CD Workflow</h2>
-            <ol>
-                <li>Developer pushes code to GitHub</li>
-                <li>Jenkins pulls latest code</li>
-                <li>Docker image is built automatically</li>
-                <li>Old container is stopped</li>
-                <li>New container is deployed on AWS EC2</li>
-            </ol>
-        </section>
+            <section class="card workflow-card">
+                <div class="card-header">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <h2>CI/CD Workflow</h2>
+                </div>
+                <div class="workflow-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">Developer pushes code to GitHub</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">Jenkins pulls latest code</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">Docker image is built automatically</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">Old container is stopped</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">New container is deployed on AWS EC2</div>
+                    </div>
+                </div>
+            </section>
 
+        </main>
+        
         <footer>
-            <p>👨‍💻 Created by Shambhu Barangule | DevOps Internship Project</p>
+            <p>Designed for DevOps Excellence</p>
         </footer>
     </div>
 
